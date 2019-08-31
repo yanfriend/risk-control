@@ -1,0 +1,28 @@
+#log4j.rootLogger=DEBUG, INFO, stdout, D, E
+
+log4j.logger.AutoTradeMain= D
+
+log4j.appender.dest1=org.apache.log4j.ConsoleAppender
+log4j.appender.dest1.layout=org.apache.log4j.PatternLayout
+
+log4j.appender.stdout = org.apache.log4j.ConsoleAppender   
+log4j.appender.stdout.Target = System.out   
+log4j.appender.stdout.layout = org.apache.log4j.PatternLayout   
+#log4j.appender.stdout.layout.ConversionPattern =  %d{ABSOLUTE} %5p %c{ 1 }:%L - %m%n   
+
+# to log file
+log4j.appender.D = org.apache.log4j.DailyRollingFileAppender   
+log4j.appender.D.File = log.log   
+log4j.appender.D.Append = true  
+log4j.appender.D.Threshold = DEBUG  
+log4j.appender.D.layout = org.apache.log4j.PatternLayout   
+log4j.appender.D.layout.ConversionPattern = %-d{yyyy-MM-dd HH:mm:ss}  [ %t:%r ] - [ %p ]  %m%n   
+
+# error to a file
+log4j.appender.D = org.apache.log4j.DailyRollingFileAppender   
+log4j.appender.D.File = error.log 
+log4j.appender.D.Append = true  
+log4j.appender.D.Threshold = ERROR  
+log4j.appender.D.layout = org.apache.log4j.PatternLayout   
+log4j.appender.D.layout.ConversionPattern = %-d{yyyy-MM-dd HH:mm:ss}  [ %t:%r ] - [ %p ]  %m%n   
+

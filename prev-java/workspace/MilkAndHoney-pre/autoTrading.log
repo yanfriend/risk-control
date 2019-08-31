@@ -1,0 +1,1018 @@
+2010-09-07 11:42:09,779 TRACE [EReader] H.DataEngine [DataEngine.java:103] current timer(in return): 1283874132
+2010-09-07 11:42:10,935 ERROR [EReader] H.OrderEngine [OrderEngine.java:218] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfuture
+2010-09-07 11:42:10,935 ERROR [EReader] H.OrderEngine [OrderEngine.java:218] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:cashfarm
+2010-09-07 11:42:10,935 ERROR [EReader] H.OrderEngine [OrderEngine.java:218] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usopt
+2010-09-07 11:42:10,935 ERROR [EReader] H.OrderEngine [OrderEngine.java:218] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfarm
+2010-09-07 11:42:10,935 ERROR [EReader] H.OrderEngine [OrderEngine.java:218] error (id, errorCode, errorMsg): id=-1.  errorCode=2106.  errorMsg=HMDS data farm connection is OK:ushmds2a
+2010-09-07 11:42:11,935 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 1, FTLK
+2010-09-07 11:42:12,060 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 2, ERTS
+2010-09-07 11:42:12,060 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 3, ERTS
+2010-09-07 11:42:12,060 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 4, ERTS
+2010-09-07 11:42:12,060 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 5, ERTS
+2010-09-07 11:42:16,873 INFO [Timer-2] H.Security [HESecurity.java:266] requesting data till 20100907 11:42:20
+2010-09-07 11:42:16,873 INFO [Timer-2] H.DataEngine [DataEngine.java:285] Requesting historical data: 6, FTLK
+2010-09-07 11:42:18,592 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 09:30:00, close:7.93, volume:103
+2010-09-07 11:42:18,592 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 10:00:00, close:7.94, volume:52
+2010-09-07 11:42:18,592 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 10:30:00, close:7.98, volume:77
+2010-09-07 11:42:18,592 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 11:00:00, close:7.99, volume:42
+2010-09-07 11:42:18,592 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 11:30:00, close:7.99, volume:172
+2010-09-07 11:42:18,592 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 12:00:00, close:7.99, volume:127
+2010-09-07 11:42:18,592 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 12:30:00, close:8.0, volume:197
+2010-09-07 11:42:18,592 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 13:00:00, close:7.99, volume:19
+2010-09-07 11:42:18,592 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 13:30:00, close:8.0, volume:37
+2010-09-07 11:42:18,592 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 14:00:00, close:7.99, volume:20
+2010-09-07 11:42:18,592 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 14:30:00, close:7.99, volume:4
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 15:00:00, close:7.99, volume:11
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 15:30:00, close:8.0, volume:31
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 09:30:00, close:7.87, volume:40
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 10:00:00, close:7.98, volume:6
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 10:30:00, close:7.97, volume:42
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 11:00:00, close:7.99, volume:174
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 11:30:00, close:8.0, volume:163
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 12:00:00, close:8.0, volume:125
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 12:30:00, close:7.99, volume:54
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 13:00:00, close:7.99, volume:88
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 13:30:00, close:7.93, volume:71
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 14:00:00, close:7.97, volume:38
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 14:30:00, close:7.96, volume:80
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 15:00:00, close:7.98, volume:36
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 15:30:00, close:7.99, volume:25
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 09:30:00, close:7.92, volume:52
+2010-09-07 11:42:18,607 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 10:00:00, close:7.97, volume:1
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 10:30:00, close:7.97, volume:20
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 11:00:00, close:7.97, volume:23
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 11:30:00, close:7.95, volume:10
+2010-09-07 11:42:18,623 INFO [EReader] H.Security [HESecurity.java:78] FTLK checking strategy, may calculate indicators..
+2010-09-07 11:42:18,623 INFO [EReader] H.Security [HESecurity.java:80] bar size:31
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 09:30:00, close:7.93, volume:103
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 10:00:00, close:7.94, volume:52
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 10:30:00, close:7.98, volume:77
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 11:00:00, close:7.99, volume:42
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 11:30:00, close:7.99, volume:172
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 12:00:00, close:7.99, volume:127
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 12:30:00, close:8.0, volume:197
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 13:00:00, close:7.99, volume:19
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 13:30:00, close:8.0, volume:37
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 14:00:00, close:7.99, volume:20
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 14:30:00, close:7.99, volume:4
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 15:00:00, close:7.99, volume:11
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 15:30:00, close:8.0, volume:31
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 09:30:00, close:7.87, volume:40
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 10:00:00, close:7.98, volume:6
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 10:30:00, close:7.97, volume:42
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 11:00:00, close:7.99, volume:174
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 11:30:00, close:8.0, volume:163
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 12:00:00, close:8.0, volume:125
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 12:30:00, close:7.99, volume:54
+2010-09-07 11:42:18,623 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 13:00:00, close:7.99, volume:88
+2010-09-07 11:42:18,638 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 13:30:00, close:7.93, volume:71
+2010-09-07 11:42:18,638 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 14:00:00, close:7.97, volume:38
+2010-09-07 11:42:18,638 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 14:30:00, close:7.96, volume:80
+2010-09-07 11:42:18,638 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 15:00:00, close:7.98, volume:36
+2010-09-07 11:42:18,638 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 15:30:00, close:7.99, volume:25
+2010-09-07 11:42:18,638 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 09:30:00, close:7.92, volume:52
+2010-09-07 11:42:18,638 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 10:00:00, close:7.97, volume:1
+2010-09-07 11:42:18,638 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 10:30:00, close:7.97, volume:20
+2010-09-07 11:42:18,638 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 11:00:00, close:7.97, volume:23
+2010-09-07 11:42:18,638 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 11:30:00, close:7.95, volume:10
+2010-09-07 11:42:19,154 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:42:19,154 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.2, volume=0
+2010-09-07 11:42:19,154 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.2, volume=0
+2010-09-07 11:42:22,951 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:42:22,951 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:42:23,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:42:23,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.2, volume=0
+2010-09-07 11:42:23,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.2, volume=0
+2010-09-07 11:42:27,935 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:42:27,935 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:42:28,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:42:28,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.2, volume=0
+2010-09-07 11:42:28,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.2, volume=0
+2010-09-07 11:45:50,576 ERROR [EReader] H.OrderEngine [OrderEngine.java:218] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfuture
+2010-09-07 11:45:50,592 ERROR [EReader] H.OrderEngine [OrderEngine.java:218] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:cashfarm
+2010-09-07 11:45:50,592 ERROR [EReader] H.OrderEngine [OrderEngine.java:218] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usopt
+2010-09-07 11:45:50,592 ERROR [EReader] H.OrderEngine [OrderEngine.java:218] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfarm
+2010-09-07 11:45:50,592 ERROR [EReader] H.OrderEngine [OrderEngine.java:218] error (id, errorCode, errorMsg): id=-1.  errorCode=2106.  errorMsg=HMDS data farm connection is OK:ushmds2a
+2010-09-07 11:45:50,607 TRACE [EReader] H.DataEngine [DataEngine.java:103] current timer(in return): 1283874352
+2010-09-07 11:45:51,592 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 1, FTLK
+2010-09-07 11:45:51,607 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 2, ERTS
+2010-09-07 11:45:51,607 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 3, ERTS
+2010-09-07 11:45:51,607 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 4, ERTS
+2010-09-07 11:45:51,607 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 5, ERTS
+2010-09-07 11:45:51,951 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:45:51,951 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:45:51,951 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 11:45:51,951 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:46:18,732 TRACE [EReader] H.DataEngine [DataEngine.java:103] current timer(in return): 1283874381
+2010-09-07 11:46:18,888 ERROR [EReader] H.OrderEngine [OrderEngine.java:218] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfuture
+2010-09-07 11:46:18,888 ERROR [EReader] H.OrderEngine [OrderEngine.java:218] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:cashfarm
+2010-09-07 11:46:18,904 ERROR [EReader] H.OrderEngine [OrderEngine.java:218] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usopt
+2010-09-07 11:46:18,904 ERROR [EReader] H.OrderEngine [OrderEngine.java:218] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfarm
+2010-09-07 11:46:18,904 ERROR [EReader] H.OrderEngine [OrderEngine.java:218] error (id, errorCode, errorMsg): id=-1.  errorCode=2106.  errorMsg=HMDS data farm connection is OK:ushmds2a
+2010-09-07 11:46:19,904 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 1, FTLK
+2010-09-07 11:46:19,920 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 2, ERTS
+2010-09-07 11:46:19,920 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 3, ERTS
+2010-09-07 11:46:19,920 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 4, ERTS
+2010-09-07 11:46:19,920 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 5, ERTS
+2010-09-07 11:46:20,420 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:46:20,420 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:46:20,435 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 11:46:20,435 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:46:21,342 INFO [Timer-2] H.Security [HESecurity.java:266] requesting data till 20100907 11:46:23
+2010-09-07 11:46:21,342 INFO [Timer-2] H.DataEngine [DataEngine.java:285] Requesting historical data: 6, FTLK
+2010-09-07 11:46:21,638 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 09:30:00, close:7.93, volume:103
+2010-09-07 11:46:21,638 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 10:00:00, close:7.94, volume:52
+2010-09-07 11:46:21,638 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 10:30:00, close:7.98, volume:77
+2010-09-07 11:46:21,638 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 11:00:00, close:7.99, volume:42
+2010-09-07 11:46:21,638 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 11:30:00, close:7.99, volume:172
+2010-09-07 11:46:21,638 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 12:00:00, close:7.99, volume:127
+2010-09-07 11:46:21,638 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 12:30:00, close:8.0, volume:197
+2010-09-07 11:46:21,638 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 13:00:00, close:7.99, volume:19
+2010-09-07 11:46:21,638 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 13:30:00, close:8.0, volume:37
+2010-09-07 11:46:21,638 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 14:00:00, close:7.99, volume:20
+2010-09-07 11:46:21,638 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 14:30:00, close:7.99, volume:4
+2010-09-07 11:46:21,638 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 15:00:00, close:7.99, volume:11
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 15:30:00, close:8.0, volume:31
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 09:30:00, close:7.87, volume:40
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 10:00:00, close:7.98, volume:6
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 10:30:00, close:7.97, volume:42
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 11:00:00, close:7.99, volume:174
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 11:30:00, close:8.0, volume:163
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 12:00:00, close:8.0, volume:125
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 12:30:00, close:7.99, volume:54
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 13:00:00, close:7.99, volume:88
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 13:30:00, close:7.93, volume:71
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 14:00:00, close:7.97, volume:38
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 14:30:00, close:7.96, volume:80
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 15:00:00, close:7.98, volume:36
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 15:30:00, close:7.99, volume:25
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 09:30:00, close:7.92, volume:52
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 10:00:00, close:7.97, volume:1
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 10:30:00, close:7.97, volume:20
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 11:00:00, close:7.97, volume:23
+2010-09-07 11:46:21,654 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 11:30:00, close:7.95, volume:10
+2010-09-07 11:46:21,654 INFO [EReader] H.Security [HESecurity.java:78] FTLK checking strategy, may calculate indicators..
+2010-09-07 11:46:21,670 INFO [EReader] H.Security [HESecurity.java:80] bar size:31
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 09:30:00, close:7.93, volume:103
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 10:00:00, close:7.94, volume:52
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 10:30:00, close:7.98, volume:77
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 11:00:00, close:7.99, volume:42
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 11:30:00, close:7.99, volume:172
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 12:00:00, close:7.99, volume:127
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 12:30:00, close:8.0, volume:197
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 13:00:00, close:7.99, volume:19
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 13:30:00, close:8.0, volume:37
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 14:00:00, close:7.99, volume:20
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 14:30:00, close:7.99, volume:4
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 15:00:00, close:7.99, volume:11
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 15:30:00, close:8.0, volume:31
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 09:30:00, close:7.87, volume:40
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 10:00:00, close:7.98, volume:6
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 10:30:00, close:7.97, volume:42
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 11:00:00, close:7.99, volume:174
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 11:30:00, close:8.0, volume:163
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 12:00:00, close:8.0, volume:125
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 12:30:00, close:7.99, volume:54
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 13:00:00, close:7.99, volume:88
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 13:30:00, close:7.93, volume:71
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 14:00:00, close:7.97, volume:38
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 14:30:00, close:7.96, volume:80
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 15:00:00, close:7.98, volume:36
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 15:30:00, close:7.99, volume:25
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 09:30:00, close:7.92, volume:52
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 10:00:00, close:7.97, volume:1
+2010-09-07 11:46:21,670 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 10:30:00, close:7.97, volume:20
+2010-09-07 11:46:21,685 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 11:00:00, close:7.97, volume:23
+2010-09-07 11:46:21,685 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 11:30:00, close:7.95, volume:10
+2010-09-07 11:46:22,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:46:22,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:46:23,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:46:23,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=0
+2010-09-07 11:46:23,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 11:46:27,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:46:27,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:46:28,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:46:28,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=0
+2010-09-07 11:46:28,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 11:46:32,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:46:32,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:46:33,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:46:33,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=0
+2010-09-07 11:46:33,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 11:46:37,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:46:37,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:46:38,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:46:38,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=7
+2010-09-07 11:46:38,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=7
+2010-09-07 11:46:42,935 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:46:42,935 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:46:43,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:46:43,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=0
+2010-09-07 11:46:43,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 11:46:47,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:46:47,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:46:48,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:46:48,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.2, volume=9
+2010-09-07 11:46:48,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.2, volume=9
+2010-09-07 11:46:52,935 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:46:52,935 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:46:53,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:46:53,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.2, volume=0
+2010-09-07 11:46:53,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.2, volume=0
+2010-09-07 11:46:57,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:46:57,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:46:58,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:46:58,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=13
+2010-09-07 11:46:58,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=13
+2010-09-07 11:47:02,951 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:47:02,951 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:47:03,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:47:03,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=3
+2010-09-07 11:47:03,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=3
+2010-09-07 11:47:07,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:47:07,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:47:08,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:47:08,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:08,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:12,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:47:12,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:47:13,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:47:13,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:13,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:17,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:47:17,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:47:18,232 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=15
+2010-09-07 11:47:18,232 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=15
+2010-09-07 11:47:18,732 TRACE [EReader] H.DataEngine [DataEngine.java:103] current timer(in return): 1283874441
+2010-09-07 11:47:19,920 INFO [Timer-4] H.Security [OPTSecurity.java:84] Placing option orders: ERTS
+2010-09-07 11:47:19,920 INFO [Timer-3] H.Security [OPTSecurity.java:84] Placing option orders: ERTS
+2010-09-07 11:47:19,935 INFO [Timer-3] H.OrderEngine [OrderEngine.java:53] SELL 2 @0.14
+2010-09-07 11:47:19,935 INFO [Timer-4] H.OrderEngine [OrderEngine.java:53] SELL 1 @0.52
+2010-09-07 11:47:20,670 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:47:35,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:47:35,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:47:35,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:47:35,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=21
+2010-09-07 11:47:35,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=21
+2010-09-07 11:47:36,029 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:47:36,029 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:47:36,029 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:47:36,045 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:36,045 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:36,045 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:47:36,045 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:47:36,045 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:47:36,045 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:36,045 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:37,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:47:37,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:47:38,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:47:38,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:38,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:42,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:47:42,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:47:43,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:47:43,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:43,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:48,248 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:47:48,248 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:47:48,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:47:48,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:48,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:52,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:47:52,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:47:53,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:47:53,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:53,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 11:47:57,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:47:57,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:47:58,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:47:58,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.2, volume=9
+2010-09-07 11:47:58,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.2, volume=9
+2010-09-07 11:48:02,951 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:48:02,951 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:48:03,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:48:03,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.2, volume=0
+2010-09-07 11:48:03,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.2, volume=0
+2010-09-07 11:48:08,873 INFO [EReader] H.OrderEngine [OrderEngine.java:59]  ---- Execution Details begin ----
+reqId = -1
+orderId = 26
+clientId = 2
+symbol = ERTS
+secType = OPT
+expiry = 20100917
+strike = 17.0
+right = C
+contractExchange = AMEX
+currency = USD
+localSymbol = ERTS  100918C00017000
+execId = 0001f4e4.4c862b3a.01.01
+time = 20100907  11:48:07
+acctNumber = DU92344
+executionExchange = AMEX
+side = SLD
+shares = 2
+price = 0.14
+permId = 49675413
+liquidation = 0
+cumQty = 2
+avgPrice = 0.14
+ ---- Execution Details end ----
+
+2010-09-07 11:48:08,998 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:48:08,998 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:48:11,154 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:48:11,154 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.2, volume=0
+2010-09-07 11:48:11,154 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.2, volume=0
+2010-09-07 11:48:12,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.515, volume=-1
+2010-09-07 11:48:12,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 11:48:12,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.2, volume=6
+2010-09-07 11:48:12,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.2, volume=6
+2010-09-07 11:48:13,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:48:17,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.51, volume=-1
+2010-09-07 11:48:17,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:48:18,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:48:18,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.2, volume=35
+2010-09-07 11:48:18,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.2, volume=35
+2010-09-07 11:48:18,732 TRACE [EReader] H.DataEngine [DataEngine.java:103] current timer(in return): 1283874500
+2010-09-07 11:48:22,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.51, volume=-1
+2010-09-07 11:48:22,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:48:23,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:48:23,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.2, volume=0
+2010-09-07 11:48:23,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.2, volume=0
+2010-09-07 11:48:27,982 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.51, volume=-1
+2010-09-07 11:48:27,982 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:48:28,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:48:28,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.2, volume=0
+2010-09-07 11:48:28,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.2, volume=0
+2010-09-07 11:48:34,170 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.51, volume=-1
+2010-09-07 11:48:34,170 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:48:34,170 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:48:34,170 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.19, volume=6
+2010-09-07 11:48:34,170 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.19, volume=6
+2010-09-07 11:48:36,029 INFO [EReader] H.OrderEngine [OrderEngine.java:59]  ---- Execution Details begin ----
+reqId = -1
+orderId = 27
+clientId = 2
+symbol = ERTS
+secType = OPT
+expiry = 20100917
+strike = 16.0
+right = C
+contractExchange = PHLX
+currency = USD
+localSymbol = ERTS  100918C00016000
+execId = 0001f4e4.4c862b4a.01.01
+time = 20100907  11:48:38
+acctNumber = DU92344
+executionExchange = PHLX
+side = SLD
+shares = 1
+price = 0.5
+permId = 49675414
+liquidation = 0
+cumQty = 1
+avgPrice = 0.5
+ ---- Execution Details end ----
+
+2010-09-07 11:48:37,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.51, volume=-1
+2010-09-07 11:48:37,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:48:38,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:48:38,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.19, volume=0
+2010-09-07 11:48:38,717 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.19, volume=0
+2010-09-07 11:48:47,217 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.51, volume=-1
+2010-09-07 11:48:47,217 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:48:47,217 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:48:47,217 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.19, volume=0
+2010-09-07 11:48:47,217 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.19, volume=0
+2010-09-07 11:48:48,404 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.51, volume=-1
+2010-09-07 11:48:48,404 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:48:48,404 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.19, volume=1
+2010-09-07 11:48:48,404 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.19, volume=1
+2010-09-07 11:48:48,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:49:14,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.51, volume=-1
+2010-09-07 11:49:14,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:49:14,748 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:49:14,748 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.19, volume=1
+2010-09-07 11:49:14,748 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.19, volume=1
+2010-09-07 11:49:14,748 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.51, volume=-1
+2010-09-07 11:49:14,748 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:49:14,748 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:49:14,748 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.19, volume=12
+2010-09-07 11:49:14,748 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.19, volume=12
+2010-09-07 11:49:14,748 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.51, volume=-1
+2010-09-07 11:49:14,748 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:49:14,763 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:49:14,763 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.19, volume=6
+2010-09-07 11:49:14,763 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.19, volume=6
+2010-09-07 11:49:14,763 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.51, volume=-1
+2010-09-07 11:49:14,763 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:49:14,763 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:49:14,763 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.19, volume=0
+2010-09-07 11:49:14,763 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.19, volume=0
+2010-09-07 11:49:14,763 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.5, volume=-1
+2010-09-07 11:49:14,763 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:49:14,763 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.95, volume=0
+2010-09-07 11:49:14,763 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.18, volume=84
+2010-09-07 11:49:14,763 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.18, volume=84
+2010-09-07 11:49:17,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.505, volume=-1
+2010-09-07 11:49:17,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:49:17,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=20
+2010-09-07 11:49:17,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.19, volume=105
+2010-09-07 11:49:17,920 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.19, volume=105
+2010-09-07 11:49:18,732 TRACE [EReader] H.DataEngine [DataEngine.java:103] current timer(in return): 1283874560
+2010-09-07 11:49:22,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.505, volume=-1
+2010-09-07 11:49:22,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:49:23,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=17
+2010-09-07 11:49:23,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.19, volume=3
+2010-09-07 11:49:23,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.19, volume=3
+2010-09-07 11:49:27,888 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.505, volume=-1
+2010-09-07 11:49:27,888 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:49:28,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=14
+2010-09-07 11:49:28,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.19, volume=5
+2010-09-07 11:49:28,685 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.19, volume=5
+2010-09-07 11:49:32,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.505, volume=-1
+2010-09-07 11:49:32,904 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.14, volume=-1
+2010-09-07 11:49:33,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=0
+2010-09-07 11:49:33,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.18, volume=3
+2010-09-07 11:49:33,701 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.18, volume=3
+2010-09-07 12:05:48,763 TRACE [EReader] H.DataEngine [DataEngine.java:103] current timer(in return): 1283875549
+2010-09-07 12:05:48,951 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfuture
+2010-09-07 12:05:48,951 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:cashfarm
+2010-09-07 12:05:48,951 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usopt
+2010-09-07 12:05:48,951 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfarm
+2010-09-07 12:05:48,967 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2106.  errorMsg=HMDS data farm connection is OK:ushmds2a
+2010-09-07 12:05:49,920 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 1, FTLK
+2010-09-07 12:05:50,060 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 2, ERTS
+2010-09-07 12:05:50,060 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 3, ERTS
+2010-09-07 12:05:50,060 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 4, ERTS
+2010-09-07 12:05:50,060 INFO [main] H.DataEngine [DataEngine.java:313] Requesting realtime bar: 5, ERTS
+2010-09-07 12:05:51,326 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=0
+2010-09-07 12:05:51,326 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.22, volume=0
+2010-09-07 12:05:51,326 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 12:05:51,326 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.52, volume=-1
+2010-09-07 12:05:52,435 INFO [Timer-2] H.Security [HESecurity.java:266] requesting data till 20100907 12:05:53
+2010-09-07 12:05:52,435 INFO [Timer-2] H.DataEngine [DataEngine.java:285] Requesting historical data: 6, FTLK
+2010-09-07 12:05:52,967 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.52, volume=-1
+2010-09-07 12:05:52,967 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 09:30:00, close:7.93, volume:103
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 10:00:00, close:7.94, volume:52
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 10:30:00, close:7.98, volume:77
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 11:00:00, close:7.99, volume:42
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 11:30:00, close:7.99, volume:172
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 12:00:00, close:7.99, volume:127
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 12:30:00, close:8.0, volume:197
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 13:00:00, close:7.99, volume:19
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 13:30:00, close:8.0, volume:37
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 14:00:00, close:7.99, volume:20
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 14:30:00, close:7.99, volume:4
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 15:00:00, close:7.99, volume:11
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100902 15:30:00, close:8.0, volume:31
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 09:30:00, close:7.87, volume:40
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 10:00:00, close:7.98, volume:6
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 10:30:00, close:7.97, volume:42
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 11:00:00, close:7.99, volume:174
+2010-09-07 12:05:53,045 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 11:30:00, close:8.0, volume:163
+2010-09-07 12:05:53,060 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 12:00:00, close:8.0, volume:125
+2010-09-07 12:05:53,060 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 12:30:00, close:7.99, volume:54
+2010-09-07 12:05:53,060 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 13:00:00, close:7.99, volume:88
+2010-09-07 12:05:53,060 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 13:30:00, close:7.93, volume:71
+2010-09-07 12:05:53,060 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 14:00:00, close:7.97, volume:38
+2010-09-07 12:05:53,060 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 14:30:00, close:7.96, volume:80
+2010-09-07 12:05:53,060 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 15:00:00, close:7.98, volume:36
+2010-09-07 12:05:53,060 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 15:30:00, close:7.99, volume:25
+2010-09-07 12:05:53,060 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 09:30:00, close:7.92, volume:52
+2010-09-07 12:05:53,060 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 10:00:00, close:7.97, volume:1
+2010-09-07 12:05:53,060 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 10:30:00, close:7.97, volume:20
+2010-09-07 12:05:53,060 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 11:00:00, close:7.97, volume:23
+2010-09-07 12:05:53,060 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 11:30:00, close:7.97, volume:85
+2010-09-07 12:05:53,060 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 12:00:00, close:7.97, volume:4
+2010-09-07 12:05:53,076 INFO [EReader] H.Security [HESecurity.java:78] FTLK checking strategy, may calculate indicators..
+2010-09-07 12:05:53,076 INFO [EReader] H.Security [HESecurity.java:80] bar size:32
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 09:30:00, close:7.93, volume:103
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 10:00:00, close:7.94, volume:52
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 10:30:00, close:7.98, volume:77
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 11:00:00, close:7.99, volume:42
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 11:30:00, close:7.99, volume:172
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 12:00:00, close:7.99, volume:127
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 12:30:00, close:8.0, volume:197
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 13:00:00, close:7.99, volume:19
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 13:30:00, close:8.0, volume:37
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 14:00:00, close:7.99, volume:20
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 14:30:00, close:7.99, volume:4
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 15:00:00, close:7.99, volume:11
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100902 15:30:00, close:8.0, volume:31
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 09:30:00, close:7.87, volume:40
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 10:00:00, close:7.98, volume:6
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 10:30:00, close:7.97, volume:42
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 11:00:00, close:7.99, volume:174
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 11:30:00, close:8.0, volume:163
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 12:00:00, close:8.0, volume:125
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 12:30:00, close:7.99, volume:54
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 13:00:00, close:7.99, volume:88
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 13:30:00, close:7.93, volume:71
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 14:00:00, close:7.97, volume:38
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 14:30:00, close:7.96, volume:80
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 15:00:00, close:7.98, volume:36
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 15:30:00, close:7.99, volume:25
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 09:30:00, close:7.92, volume:52
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 10:00:00, close:7.97, volume:1
+2010-09-07 12:05:53,076 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 10:30:00, close:7.97, volume:20
+2010-09-07 12:05:53,092 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 11:00:00, close:7.97, volume:23
+2010-09-07 12:05:53,092 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 11:30:00, close:7.97, volume:85
+2010-09-07 12:05:53,092 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 12:00:00, close:7.97, volume:4
+2010-09-07 12:05:53,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=0
+2010-09-07 12:05:53,810 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.22, volume=0
+2010-09-07 12:05:53,810 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.22, volume=0
+2010-09-07 12:05:57,873 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.52, volume=-1
+2010-09-07 12:05:57,873 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 12:05:58,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=0
+2010-09-07 12:05:58,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.22, volume=0
+2010-09-07 12:05:58,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.22, volume=0
+2010-09-07 12:06:02,857 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.52, volume=-1
+2010-09-07 12:06:02,857 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 12:06:03,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=0
+2010-09-07 12:06:03,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.23, volume=1
+2010-09-07 12:06:03,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.23, volume=1
+2010-09-07 12:06:07,857 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.52, volume=-1
+2010-09-07 12:06:07,857 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 12:06:08,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=0
+2010-09-07 12:06:08,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.23, volume=0
+2010-09-07 12:06:08,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.23, volume=0
+2010-09-07 12:06:12,857 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.52, volume=-1
+2010-09-07 12:06:12,857 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 12:06:13,623 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=0
+2010-09-07 12:06:13,623 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.23, volume=0
+2010-09-07 12:06:13,623 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.23, volume=0
+2010-09-07 12:06:17,857 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.52, volume=-1
+2010-09-07 12:06:17,857 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 12:06:18,670 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=0
+2010-09-07 12:06:18,670 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.23, volume=0
+2010-09-07 12:06:18,670 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.23, volume=0
+2010-09-07 12:06:20,060 INFO [Timer-3] H.Security [OPTSecurity.java:85] Placing option orders: ERTS
+2010-09-07 12:06:20,060 INFO [Timer-4] H.Security [OPTSecurity.java:85] Placing option orders: ERTS
+2010-09-07 12:06:20,076 INFO [Timer-4] H.OrderEngine [OrderEngine.java:54] SELL 1 @0.52
+2010-09-07 12:06:20,076 INFO [Timer-3] H.OrderEngine [OrderEngine.java:54] SELL 2 @0.14
+2010-09-07 12:06:20,779 INFO [EReader] H.OrderEngine [OrderEngine.java:60]  ---- Execution Details begin ----
+reqId = -1
+orderId = 29
+clientId = 2
+symbol = ERTS
+secType = OPT
+expiry = 20100917
+strike = 17.0
+right = C
+contractExchange = AMEX
+currency = USD
+localSymbol = ERTS  100918C00017000
+execId = 0001f4e4.4c862bd8.01.01
+time = 20100907  12:06:23
+acctNumber = DU92344
+executionExchange = AMEX
+side = SLD
+shares = 2
+price = 0.14
+permId = 49675420
+liquidation = 0
+cumQty = 2
+avgPrice = 0.14
+ ---- Execution Details end ----
+
+2010-09-07 12:06:22,842 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.52, volume=-1
+2010-09-07 12:06:22,842 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 12:06:23,654 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=0
+2010-09-07 12:06:23,654 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.23, volume=1
+2010-09-07 12:06:23,654 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.23, volume=1
+2010-09-07 12:06:27,842 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.52, volume=-1
+2010-09-07 12:06:27,842 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 12:06:28,154 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.23, volume=0
+2010-09-07 12:06:28,154 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.23, volume=0
+2010-09-07 12:06:28,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=0
+2010-09-07 12:06:32,873 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.52, volume=-1
+2010-09-07 12:06:32,873 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 12:06:33,654 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=0
+2010-09-07 12:06:33,654 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.22, volume=2
+2010-09-07 12:06:33,654 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.22, volume=2
+2010-09-07 12:06:37,857 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.52, volume=-1
+2010-09-07 12:06:37,857 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 12:06:38,654 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=0
+2010-09-07 12:06:38,654 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.22, volume=41
+2010-09-07 12:06:38,654 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.22, volume=41
+2010-09-07 12:06:42,857 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.52, volume=-1
+2010-09-07 12:06:42,857 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 12:06:43,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=0
+2010-09-07 12:06:43,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=1
+2010-09-07 12:06:43,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=1
+2010-09-07 12:06:47,857 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.52, volume=-1
+2010-09-07 12:06:47,873 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 12:06:48,670 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=0
+2010-09-07 12:06:48,670 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 12:06:48,670 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=0
+2010-09-07 12:06:48,763 TRACE [EReader] H.DataEngine [DataEngine.java:103] current timer(in return): 1283875611
+2010-09-07 12:06:52,857 TRACE [EReader] H.DataEngine [DataEngine.java:264] 4, ERTS, last price=0.52, volume=-1
+2010-09-07 12:06:52,857 TRACE [EReader] H.DataEngine [DataEngine.java:264] 2, ERTS, last price=0.145, volume=-1
+2010-09-07 12:06:53,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 1, FTLK, last price=7.97, volume=0
+2010-09-07 12:06:53,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 3, ERTS, last price=16.21, volume=0
+2010-09-07 12:06:53,638 TRACE [EReader] H.DataEngine [DataEngine.java:264] 5, ERTS, last price=16.21, volume=0
+2010-09-09 03:52:23,842 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284018752
+2010-09-09 03:52:24,232 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfuture
+2010-09-09 03:52:24,232 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usopt
+2010-09-09 03:52:24,232 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfarm
+2010-09-09 03:52:24,232 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2107.  errorMsg=HMDS data farm connection is inactive but should be available upon demand.ushmds2a
+2010-09-09 03:52:25,263 INFO [main] H.DataEngine [DataEngine.java:336] Requesting realtime bar: 1, FTLK
+2010-09-09 03:52:25,310 INFO [main] H.DataEngine [DataEngine.java:336] Requesting realtime bar: 2, ES
+2010-09-09 03:52:25,638 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2106.  errorMsg=HMDS data farm connection is OK:ushmds2a
+2010-09-09 03:52:29,029 INFO [Timer-2] H.Security [HESecurity.java:266] requesting data till 20100909 03:52:38
+2010-09-09 03:52:29,029 INFO [Timer-2] H.DataEngine [DataEngine.java:301] Requesting historical data: 3, FTLK
+2010-09-09 03:52:29,482 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 09:30:00, close:7.87, volume:40
+2010-09-09 03:52:29,482 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 10:00:00, close:7.98, volume:6
+2010-09-09 03:52:29,482 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 10:30:00, close:7.97, volume:42
+2010-09-09 03:52:29,482 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 11:00:00, close:7.99, volume:174
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 11:30:00, close:8.0, volume:163
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 12:00:00, close:8.0, volume:125
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 12:30:00, close:7.99, volume:54
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 13:00:00, close:7.99, volume:88
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 13:30:00, close:7.93, volume:71
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 14:00:00, close:7.97, volume:38
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 14:30:00, close:7.96, volume:80
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 15:00:00, close:7.98, volume:36
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100903 15:30:00, close:7.99, volume:25
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 09:30:00, close:7.92, volume:52
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 10:00:00, close:7.97, volume:1
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 10:30:00, close:7.97, volume:20
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 11:00:00, close:7.97, volume:23
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 11:30:00, close:7.97, volume:85
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 12:00:00, close:7.96, volume:10
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 12:30:00, close:7.97, volume:1
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 13:00:00, close:7.97, volume:33
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 13:30:00, close:7.99, volume:135
+2010-09-09 03:52:29,498 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 14:00:00, close:7.99, volume:96
+2010-09-09 03:52:29,513 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 14:30:00, close:8.0, volume:61
+2010-09-09 03:52:29,513 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 15:00:00, close:8.0, volume:31
+2010-09-09 03:52:29,513 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100907 15:30:00, close:8.0, volume:43
+2010-09-09 03:52:29,513 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100908 09:30:00, close:8.01, volume:27
+2010-09-09 03:52:29,513 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100908 10:00:00, close:8.01, volume:0
+2010-09-09 03:52:29,513 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100908 10:30:00, close:8.01, volume:0
+2010-09-09 03:52:29,513 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100908 11:00:00, close:8.05, volume:6
+2010-09-09 03:52:29,513 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100908 11:30:00, close:8.05, volume:7
+2010-09-09 03:52:29,513 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100908 12:00:00, close:8.05, volume:0
+2010-09-09 03:52:29,513 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100908 12:30:00, close:8.05, volume:0
+2010-09-09 03:52:29,513 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100908 13:00:00, close:8.0, volume:78
+2010-09-09 03:52:29,513 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100908 13:30:00, close:7.95, volume:1
+2010-09-09 03:52:29,513 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100908 14:00:00, close:7.99, volume:46
+2010-09-09 03:52:29,513 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100908 14:30:00, close:7.95, volume:183
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100908 15:00:00, close:7.99, volume:7
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:288] historical data: FTLK, 20100908 15:30:00, close:8.0, volume:45
+2010-09-09 03:52:29,529 INFO [EReader] H.Security [HESecurity.java:78] FTLK checking strategy, may calculate indicators..
+2010-09-09 03:52:29,529 INFO [EReader] H.Security [HESecurity.java:80] bar size:39
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 09:30:00, close:7.87, volume:40
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 10:00:00, close:7.98, volume:6
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 10:30:00, close:7.97, volume:42
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 11:00:00, close:7.99, volume:174
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 11:30:00, close:8.0, volume:163
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 12:00:00, close:8.0, volume:125
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 12:30:00, close:7.99, volume:54
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 13:00:00, close:7.99, volume:88
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 13:30:00, close:7.93, volume:71
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 14:00:00, close:7.97, volume:38
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 14:30:00, close:7.96, volume:80
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 15:00:00, close:7.98, volume:36
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100903 15:30:00, close:7.99, volume:25
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 09:30:00, close:7.92, volume:52
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 10:00:00, close:7.97, volume:1
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 10:30:00, close:7.97, volume:20
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 11:00:00, close:7.97, volume:23
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 11:30:00, close:7.97, volume:85
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 12:00:00, close:7.96, volume:10
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 12:30:00, close:7.97, volume:1
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 13:00:00, close:7.97, volume:33
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 13:30:00, close:7.99, volume:135
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 14:00:00, close:7.99, volume:96
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 14:30:00, close:8.0, volume:61
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 15:00:00, close:8.0, volume:31
+2010-09-09 03:52:29,529 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100907 15:30:00, close:8.0, volume:43
+2010-09-09 03:52:29,545 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100908 09:30:00, close:8.01, volume:27
+2010-09-09 03:52:29,545 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100908 10:00:00, close:8.01, volume:0
+2010-09-09 03:52:29,545 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100908 10:30:00, close:8.01, volume:0
+2010-09-09 03:52:29,545 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100908 11:00:00, close:8.05, volume:6
+2010-09-09 03:52:29,545 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100908 11:30:00, close:8.05, volume:7
+2010-09-09 03:52:29,545 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100908 12:00:00, close:8.05, volume:0
+2010-09-09 03:52:29,545 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100908 12:30:00, close:8.05, volume:0
+2010-09-09 03:52:29,545 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100908 13:00:00, close:8.0, volume:78
+2010-09-09 03:52:29,545 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100908 13:30:00, close:7.95, volume:1
+2010-09-09 03:52:29,545 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100908 14:00:00, close:7.99, volume:46
+2010-09-09 03:52:29,545 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100908 14:30:00, close:7.95, volume:183
+2010-09-09 03:52:29,545 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100908 15:00:00, close:7.99, volume:7
+2010-09-09 03:52:29,545 TRACE [EReader] H.Security [HESecurity.java:92] Bar data: FTLK, 20100908 15:30:00, close:8.0, volume:45
+2010-09-09 03:53:23,842 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284018813
+2010-09-09 03:53:37,513 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfuture
+2010-09-09 03:53:37,513 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usopt
+2010-09-09 03:53:37,513 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfarm
+2010-09-09 03:53:37,513 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2106.  errorMsg=HMDS data farm connection is OK:ushmds2a
+2010-09-09 03:53:37,685 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284018826
+2010-09-09 03:53:38,513 INFO [main] H.DataEngine [DataEngine.java:336] Requesting realtime bar: 1, ES
+2010-09-09 03:54:36,451 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfuture
+2010-09-09 03:54:36,451 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284018885
+2010-09-09 03:54:36,482 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usopt
+2010-09-09 03:54:36,498 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfarm
+2010-09-09 03:54:36,498 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2106.  errorMsg=HMDS data farm connection is OK:ushmds2a
+2010-09-09 03:54:37,435 INFO [main] H.DataEngine [DataEngine.java:336] Requesting realtime bar: 1, ES
+2010-09-09 03:55:38,310 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfuture
+2010-09-09 03:55:38,310 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usopt
+2010-09-09 03:55:38,310 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfarm
+2010-09-09 03:55:38,310 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2106.  errorMsg=HMDS data farm connection is OK:ushmds2a
+2010-09-09 03:55:38,670 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284018947
+2010-09-09 03:55:39,310 INFO [main] H.DataEngine [DataEngine.java:336] Requesting realtime bar: 1, ES
+2010-09-09 03:55:39,779 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1092.5, volume=0
+2010-09-09 03:55:41,560 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1092.5, volume=5
+2010-09-09 03:55:46,560 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1092.5, volume=1
+2010-09-09 03:55:51,560 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1092.5, volume=0
+2010-09-09 03:55:56,560 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1092.5, volume=0
+2010-09-09 03:56:01,560 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1092.5, volume=0
+2010-09-09 03:56:06,560 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1092.5, volume=0
+2010-09-09 03:57:42,357 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019071
+2010-09-09 03:57:42,560 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfuture
+2010-09-09 03:57:42,576 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usopt
+2010-09-09 03:57:42,576 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfarm
+2010-09-09 03:57:42,576 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=-1.  errorCode=2106.  errorMsg=HMDS data farm connection is OK:ushmds2a
+2010-09-09 03:57:43,592 INFO [main] H.DataEngine [DataEngine.java:336] Requesting realtime bar: 1, ES
+2010-09-09 03:57:48,295 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:57:49,279 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=1
+2010-09-09 03:57:55,295 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:57:56,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:58:01,560 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:58:06,560 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=7
+2010-09-09 03:58:11,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:58:16,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:58:21,560 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:58:26,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:58:31,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:58:36,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=25
+2010-09-09 03:58:41,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:58:42,357 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019131
+2010-09-09 03:58:46,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:58:51,560 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:58:56,560 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:59:01,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=2
+2010-09-09 03:59:06,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:59:11,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:59:16,560 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:59:21,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=0
+2010-09-09 03:59:26,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=30
+2010-09-09 03:59:31,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 03:59:36,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=20
+2010-09-09 03:59:41,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 03:59:42,357 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019191
+2010-09-09 03:59:46,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 03:59:51,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 03:59:56,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:00:01,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:00:06,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:00:11,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:00:16,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:00:21,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:00:26,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:00:31,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:00:36,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:00:41,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:00:42,357 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019251
+2010-09-09 04:00:46,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:00:51,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:00:52,967 INFO [Timer-2] H.Security [FUTSecurity.java:64] Placing futures order: ES
+2010-09-09 04:00:56,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:01:01,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:01:06,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:01:08,685 INFO [Timer-2] H.OrderEngine [OrderEngine.java:54] BUY 1 @1093.25
+2010-09-09 04:01:11,654 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:01:11,748 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=30.  errorCode=399.  errorMsg=Order Message:
+Warning: your order will not be placed at the exchange until 2010-09-09 09:30:00 US/Eastern
+2010-09-09 04:01:16,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:01:21,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:01:26,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:01:31,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:01:36,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:01:41,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:01:42,357 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019311
+2010-09-09 04:01:46,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:01:48,998 ERROR [EReader] H.OrderEngine [OrderEngine.java:219] error (id, errorCode, errorMsg): id=30.  errorCode=202.  errorMsg=Order Canceled - reason:
+2010-09-09 04:01:51,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:01:56,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.0, volume=100
+2010-09-09 04:02:01,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=1
+2010-09-09 04:02:06,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:02:11,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:02:16,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:02:21,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=2
+2010-09-09 04:02:26,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:02:31,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:02:36,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:02:41,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:02:42,357 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019371
+2010-09-09 04:02:45,982 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.25, volume=0
+2010-09-09 04:02:51,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.5, volume=10
+2010-09-09 04:02:56,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.5, volume=0
+2010-09-09 04:03:01,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.0, volume=3
+2010-09-09 04:03:06,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=2
+2010-09-09 04:03:11,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:03:16,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:03:21,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:03:26,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:03:31,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:03:36,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:03:41,545 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:03:42,357 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019431
+2010-09-09 04:03:46,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:03:52,935 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:03:56,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:04:01,092 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:04:06,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=3
+2010-09-09 04:04:11,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:04:16,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:04:21,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:04:26,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:04:31,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:04:35,904 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:04:41,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=2
+2010-09-09 04:04:42,357 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019491
+2010-09-09 04:04:56,326 ERROR [EReader] H.OrderEngine [OrderEngine.java:227] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfuture
+2010-09-09 04:04:56,326 ERROR [EReader] H.OrderEngine [OrderEngine.java:227] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usopt
+2010-09-09 04:04:56,326 ERROR [EReader] H.OrderEngine [OrderEngine.java:227] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfarm
+2010-09-09 04:04:56,326 ERROR [EReader] H.OrderEngine [OrderEngine.java:227] error (id, errorCode, errorMsg): id=-1.  errorCode=2106.  errorMsg=HMDS data farm connection is OK:ushmds2a
+2010-09-09 04:04:56,560 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019505
+2010-09-09 04:04:57,326 INFO [main] H.DataEngine [DataEngine.java:336] Requesting realtime bar: 1, ES
+2010-09-09 04:04:57,732 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:05:01,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:05:06,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:05:11,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:05:16,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:05:21,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.0, volume=4
+2010-09-09 04:05:26,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=2
+2010-09-09 04:05:31,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1093.75, volume=0
+2010-09-09 04:05:36,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.0, volume=1
+2010-09-09 04:05:41,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.0, volume=0
+2010-09-09 04:05:46,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.0, volume=0
+2010-09-09 04:05:51,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.0, volume=0
+2010-09-09 04:05:56,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.0, volume=0
+2010-09-09 04:05:56,545 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019565
+2010-09-09 04:06:01,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.0, volume=0
+2010-09-09 04:06:06,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.0, volume=0
+2010-09-09 04:06:11,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.0, volume=0
+2010-09-09 04:06:16,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.0, volume=22
+2010-09-09 04:06:21,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.25, volume=1
+2010-09-09 04:06:26,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.25, volume=0
+2010-09-09 04:06:31,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.25, volume=0
+2010-09-09 04:06:36,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.25, volume=1
+2010-09-09 04:06:41,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.25, volume=0
+2010-09-09 04:06:46,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.25, volume=0
+2010-09-09 04:06:51,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.25, volume=0
+2010-09-09 04:06:56,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.25, volume=0
+2010-09-09 04:06:56,545 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019625
+2010-09-09 04:07:01,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=1
+2010-09-09 04:07:06,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:07:11,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:07:16,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:07:21,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:07:26,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:07:31,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:07:36,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:07:41,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:07:46,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:07:51,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:07:56,545 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019685
+2010-09-09 04:07:56,935 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=3
+2010-09-09 04:08:01,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:08:06,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:08:11,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:08:16,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:08:21,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:08:26,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:08:31,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:08:36,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:08:41,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:08:46,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:08:51,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=3
+2010-09-09 04:08:56,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:08:56,545 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019745
+2010-09-09 04:09:01,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:09:06,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:09:11,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:09:16,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:09:21,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:09:26,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:09:31,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:09:36,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:09:41,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:09:46,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:09:51,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:09:56,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:09:56,545 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019805
+2010-09-09 04:10:05,779 ERROR [EReader] H.OrderEngine [OrderEngine.java:228] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfuture
+2010-09-09 04:10:05,795 ERROR [EReader] H.OrderEngine [OrderEngine.java:228] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usopt
+2010-09-09 04:10:05,795 ERROR [EReader] H.OrderEngine [OrderEngine.java:228] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfarm
+2010-09-09 04:10:05,795 ERROR [EReader] H.OrderEngine [OrderEngine.java:228] error (id, errorCode, errorMsg): id=-1.  errorCode=2106.  errorMsg=HMDS data farm connection is OK:ushmds2a
+2010-09-09 04:10:05,920 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019815
+2010-09-09 04:10:06,795 INFO [main] H.DataEngine [DataEngine.java:336] Requesting realtime bar: 1, ES
+2010-09-09 04:10:07,326 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:10:11,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:10:16,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:10:21,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:10:33,467 ERROR [EReader] H.OrderEngine [OrderEngine.java:228] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfuture
+2010-09-09 04:10:33,482 ERROR [EReader] H.OrderEngine [OrderEngine.java:228] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usopt
+2010-09-09 04:10:33,482 ERROR [EReader] H.OrderEngine [OrderEngine.java:228] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfarm
+2010-09-09 04:10:33,482 ERROR [EReader] H.OrderEngine [OrderEngine.java:228] error (id, errorCode, errorMsg): id=-1.  errorCode=2106.  errorMsg=HMDS data farm connection is OK:ushmds2a
+2010-09-09 04:10:33,685 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019842
+2010-09-09 04:10:34,482 INFO [main] H.DataEngine [DataEngine.java:336] Requesting realtime bar: 1, ES
+2010-09-09 04:10:34,888 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:10:36,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:10:41,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:10:46,592 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:10:51,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:10:56,529 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:11:01,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:11:05,529 INFO [main] H.Security [FUTSecurity.java:64] Placing futures order: ES
+2010-09-09 04:11:06,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:11:11,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:11:14,545 INFO [main] H.OrderEngine [OrderEngine.java:63] BUY 1 @1094.5
+2010-09-09 04:11:14,732 ERROR [EReader] H.OrderEngine [OrderEngine.java:228] error (id, errorCode, errorMsg): id=31.  errorCode=2109.  errorMsg=Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2010-09-09 04:11:16,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:11:21,513 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:11:26,201 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.5, volume=0
+2010-09-09 04:11:31,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.75, volume=12
+2010-09-09 04:11:33,670 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019902
+2010-09-09 04:11:36,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.75, volume=0
+2010-09-09 04:11:41,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.75, volume=0
+2010-09-09 04:11:46,092 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.75, volume=4
+2010-09-09 04:11:51,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.75, volume=15
+2010-09-09 04:11:56,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.75, volume=0
+2010-09-09 04:12:01,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.75, volume=0
+2010-09-09 04:12:06,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.75, volume=0
+2010-09-09 04:12:11,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.75, volume=0
+2010-09-09 04:12:16,217 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1094.75, volume=0
+2010-09-09 04:12:19,795 ERROR [EReader] H.OrderEngine [OrderEngine.java:228] error (id, errorCode, errorMsg): id=31.  errorCode=202.  errorMsg=Order Canceled - reason:
+2010-09-09 04:12:21,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=17
+2010-09-09 04:12:52,310 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284019981
+2010-09-09 04:12:52,357 ERROR [EReader] H.OrderEngine [OrderEngine.java:228] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfuture
+2010-09-09 04:12:52,357 ERROR [EReader] H.OrderEngine [OrderEngine.java:228] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usopt
+2010-09-09 04:12:52,357 ERROR [EReader] H.OrderEngine [OrderEngine.java:228] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:usfarm
+2010-09-09 04:12:52,357 ERROR [EReader] H.OrderEngine [OrderEngine.java:228] error (id, errorCode, errorMsg): id=-1.  errorCode=2106.  errorMsg=HMDS data farm connection is OK:ushmds2a
+2010-09-09 04:12:53,357 INFO [main] H.DataEngine [DataEngine.java:336] Requesting realtime bar: 1, ES
+2010-09-09 04:12:53,701 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=0
+2010-09-09 04:12:56,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=0
+2010-09-09 04:13:01,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=0
+2010-09-09 04:13:06,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=0
+2010-09-09 04:13:11,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=0
+2010-09-09 04:13:16,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=0
+2010-09-09 04:13:21,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=12
+2010-09-09 04:13:23,357 INFO [Timer-2] H.Security [FUTSecurity.java:64] Placing futures order: ES
+2010-09-09 04:13:23,357 INFO [Timer-2] H.OrderEngine [OrderEngine.java:63] BUY 1 @1095.0
+2010-09-09 04:13:23,404 ERROR [EReader] H.OrderEngine [OrderEngine.java:228] error (id, errorCode, errorMsg): id=32.  errorCode=2109.  errorMsg=Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2010-09-09 04:13:26,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=0
+2010-09-09 04:13:31,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=0
+2010-09-09 04:13:36,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=0
+2010-09-09 04:13:41,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=0
+2010-09-09 04:13:46,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=0
+2010-09-09 04:13:51,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=0
+2010-09-09 04:13:52,310 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284020041
+2010-09-09 04:13:56,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=0
+2010-09-09 04:14:01,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=0
+2010-09-09 04:14:06,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.0, volume=0
+2010-09-09 04:14:11,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.25, volume=3
+2010-09-09 04:14:16,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.25, volume=28
+2010-09-09 04:14:21,404 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.5, volume=30
+2010-09-09 04:14:26,310 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.75, volume=33
+2010-09-09 04:14:31,592 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.5, volume=106
+2010-09-09 04:14:36,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.5, volume=4
+2010-09-09 04:14:41,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.5, volume=0
+2010-09-09 04:14:46,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.5, volume=0
+2010-09-09 04:14:51,045 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.5, volume=0
+2010-09-09 04:14:52,310 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284020101
+2010-09-09 04:14:56,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.75, volume=1
+2010-09-09 04:15:01,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.75, volume=25
+2010-09-09 04:15:06,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.75, volume=0
+2010-09-09 04:15:11,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.75, volume=0
+2010-09-09 04:15:16,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1096.0, volume=4
+2010-09-09 04:15:21,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1096.0, volume=0
+2010-09-09 04:15:26,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1096.0, volume=0
+2010-09-09 04:15:31,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1096.0, volume=0
+2010-09-09 04:15:36,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1096.0, volume=0
+2010-09-09 04:15:41,435 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1096.0, volume=1
+2010-09-09 04:15:46,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.5, volume=3
+2010-09-09 04:15:50,951 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.5, volume=0
+2010-09-09 04:15:52,310 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284020161
+2010-09-09 04:15:56,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.75, volume=1
+2010-09-09 04:16:01,498 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.75, volume=0
+2010-09-09 04:16:06,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.75, volume=0
+2010-09-09 04:16:11,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.75, volume=0
+2010-09-09 04:16:16,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.75, volume=0
+2010-09-09 04:16:21,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.75, volume=0
+2010-09-09 04:16:26,467 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.75, volume=0
+2010-09-09 04:16:31,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.5, volume=13
+2010-09-09 04:16:36,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.5, volume=2
+2010-09-09 04:16:41,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.5, volume=0
+2010-09-09 04:16:46,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.5, volume=0
+2010-09-09 04:16:51,482 INFO [EReader] H.DataEngine [DataEngine.java:266] 1, ES, last price=1095.5, volume=0
+2010-09-09 04:16:52,310 TRACE [EReader] H.DataEngine [DataEngine.java:105] current timer(in return): 1284020221
+2010-09-11 10:29:30,748 TRACE [EReader] H.DataEngine [DataEngine.java:103] current timer(in return): 1284215389
+2010-09-11 10:29:30,873 ERROR [EReader] H.OrderEngine [OrderEngine.java:230] error (id, errorCode, errorMsg): id=-1.  errorCode=2104.  errorMsg=Market data farm connection is OK:ibdemo
+2010-09-11 10:29:30,873 ERROR [EReader] H.OrderEngine [OrderEngine.java:230] error (id, errorCode, errorMsg): id=-1.  errorCode=2107.  errorMsg=HMDS data farm connection is inactive but should be available upon demand.demohmds
+2010-09-11 10:29:31,904 INFO [main] H.DataEngine [DataEngine.java:334] Requesting realtime bar: 93, ES
+2010-09-11 10:29:34,373 ERROR [EReader] H.OrderEngine [OrderEngine.java:230] error (id, errorCode, errorMsg): id=-1.  errorCode=2106.  errorMsg=HMDS data farm connection is OK:demohmds

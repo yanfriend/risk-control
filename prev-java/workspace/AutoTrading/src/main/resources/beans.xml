@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+ <bean id="dataEngine" class="common.DataEngine">
+	<constructor-arg type="int" value="3"/>
+ </bean>
+
+ <bean id="orderEngine" class="common.OrderEngine">
+	<constructor-arg type="int" value="4"/>
+ </bean>
+ 
+
+  <bean id="rangeFadeStrategy" class="spyder.RangeFadeStrategy" singleton="false">
+	<property name="dataEngine" ref="dataEngine"/>
+<!--	<property name="orderEngine" ref="orderEngine"/>  -->
+ </bean>
+ 
+   <bean id="downloadData" class="common.DownloadData" singleton="false">
+	<property name="dataEngine" ref="dataEngine"/>
+ </bean>
+ 
+ 
+ <bean id="chapter4_3_sp5mins" class="backtest.Chapter4_3_sp5mins">
+ </bean>
+
+
+
+ <bean id="simuDataEngine" class="common.SimuDataEngine">
+	<constructor-arg type="int" value="1"/>
+ </bean>
+
+ <bean id="heStrategy" class="spyder.HEStrategy" singleton="false">
+	<property name="dataEngine" ref="dataEngine"/>
+	<property name="orderEngine" ref="orderEngine"/>
+        <property name="securityNoLeft" value="5"/>
+	<property name="testing" value="false" />
+ </bean>
+
+ <bean id="dojiMonitor" class="monitor.Doji" singleton="false">
+	<property name="dataEngine" ref="dataEngine"/>
+	<property name="orderEngine" ref="orderEngine"/>
+	<property name="testing" value="false" />
+ </bean>
+ 
+ <bean id="heShortStrategy" class="spyder.HEShortStrategy" singleton="false">
+	<property name="dataEngine" ref="dataEngine"/>
+	<property name="orderEngine" ref="orderEngine"/>
+        <property name="securityNoLeft" value="12"/>
+	<property name="testing" value="false" />
+ </bean>
+ 
+ <bean id="optStrategy" class="spyder.OPTStrategy" singleton="false">
+	<property name="dataEngine" ref="dataEngine"/>
+	<property name="orderEngine" ref="orderEngine"/>
+	<property name="testing" value="false" />
+ </bean>
+
+ <bean id="stopOrderEquityStrategy" class="spyder.StopOrderEquityStrategy" singleton="false">
+	<property name="dataEngine" ref="dataEngine"/>
+	<property name="orderEngine" ref="orderEngine"/>
+        <property name="securityNoLeft" value="10"/>
+	<property name="testing" value="false" />
+ </bean>
+
+ <bean id="topStrategy" class="futures.Top25OneStrategy" singleton="false">
+	<property name="dataEngine" ref="dataEngine"/>
+	<property name="orderEngine" ref="orderEngine"/>
+	<property name="securityNoLeft" value="2"/>
+	<property name="testing" value="false" />
+ </bean>
+
+ <bean id="npp2Strategy" class="npp.NppDivergenceStrategy" singleton="false">
+	<property name="dataEngine" ref="dataEngine"/>
+	<property name="orderEngine" ref="orderEngine"/>
+	<property name="securityNoLeft" value="2"/>
+	<property name="testing" value="false" />
+ </bean>
+
+ <bean id="reverseTopStrategy" class="futures.ReverseTop25Strategy" singleton="false">
+	<property name="dataEngine" ref="dataEngine"/>
+	<property name="orderEngine" ref="orderEngine"/>
+	<property name="securityNoLeft" value="2"/>
+	<property name="testing" value="false" />
+ </bean>
+
+ <bean id="priceMonitorStrategy" class="monitor.PriceMonitorStrategy" singleton="false">
+ 	<property name="dataEngine" ref="dataEngine"/>
+ 	<property name="orderEngine" ref="orderEngine"/>
+ </bean>
+ 
+  <!--  <bean id="autoTradeMain" class="common.AutoTradeMain">  -->
+  <!--  
+        <property name="securityLocations">
+            <map>
+                            
+              <entry key="dojiMonitor" value="D:\\CommonData\\Stocks\\dojimonitor.json"/>  
+
+              <entry key="rangeFadeStrategy" value=""/>             
+  
+              <entry key="priceMonitorStrategy" value=""/>  
+   	          
+              <entry key="reverseTopStrategy" value="D:\\CommonData\\Stocks\\FUTSecurities.csv"/>   
+              <entry key="npp2Strategy" value="D:\\CommonData\\Stocks\\'''NPPSecurities.csv"/>   
+              <entry key="heStrategy" value="D:\\CommonData\\Stocks\\HEStocks.csv"/>
+	            <entry key="heShortStrategy" value="D:\\CommonData\\Stocks\\'''HEStocks.csv"/>
+
+              <entry key="stopOrderEquityStrategy" value="D:\\CommonData\\Stocks\\stopStocks.csv"/> 
+		          <entry key="optStrategy" value="D:\\CommonData\\Stocks\\OPTStocks.csv"/>
+              <entry key="topStrategy" value="D:\\CommonData\\Stocks\\FUTSecurities.csv"/>
+                
+              <entry key="downloadData" value="D:\\CommonData\\Stocks\\DownloadData.csv"/>          
+           
+            </map>
+	</property>
+ -->   
+ <!--   
+  <property name="backtest_data">
+            <map>
+               <entry key="chapter4_3_sp5mins" value="D:\\CommonData\\Stocks\\testData\\SPY_STK.csv"/>  
+            </map>
+	</property>
+ -->
+ <!--    </bean>            -->
+
+</beans>

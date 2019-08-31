@@ -1,0 +1,60 @@
+package monitor;
+
+import java.awt.Toolkit;
+import java.text.SimpleDateFormat;
+import java.util.Collection;
+import java.util.Date;
+import java.util.Iterator;
+import java.util.Random;
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.TreeMap;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.ib.client.Contract;
+import com.ib.client.Execution;
+import com.ib.client.Order;
+import com.tictactec.ta.lib.Core;
+import com.tictactec.ta.lib.MAType;
+import com.tictactec.ta.lib.MInteger;
+import common.Bar;
+import common.DataEngine;
+import common.OrderEngine;
+import common.PriceTypeEnum;
+import common.SimuDataEngine;
+import common.Strategy;
+import common.TradeAlarm;
+
+public class AccountMonitor_bak 
+{
+//	OrderEngine orderEngine; 
+	DataEngine dataEngine; 
+	
+	private transient final Logger log = LoggerFactory.getLogger(Strategy.class);
+
+    public AccountMonitor_bak()
+    {
+    }
+    
+    public void checkStrategy(String value)
+    {
+    	double availFund = Double.parseDouble(value); 
+    	log.info("account available fund:"+availFund);
+    }
+    
+       
+	public void monitor() {
+		dataEngine.reqAccountUpdates(this);
+    }
+    
+
+	public DataEngine getDataEngine() {
+		return dataEngine;
+	}
+	public void setDataEngine(DataEngine dataEngine) {
+		this.dataEngine = dataEngine;
+	}
+
+}

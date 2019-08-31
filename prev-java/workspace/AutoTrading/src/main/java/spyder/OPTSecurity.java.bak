@@ -1,0 +1,158 @@
+package spyder;
+
+import java.text.DecimalFormat;
+import java.util.Timer;
+import java.util.TimerTask;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.tictactec.ta.lib.Core;
+import common.DataEngine;
+import common.OrderEngine;
+import common.PriceTypeEnum;
+import common.Security;
+
+public class OPTSecurity_bak extends Security
+{
+	static private int totalOrderNo = 0; 
+	
+	private String triggerMode;  // <= or >=
+	private float triggerPrice;  // underlying stock price
+	private String priceMode;    // "MIDPOINT"
+	
+	private OrderEngine orderEngine; 
+	private DataEngine dataEngine; 
+	
+	private Security security = new Security();
+	private boolean placed = false;
+	
+	private boolean testing;
+
+	private transient final Logger log = LoggerFactory.getLogger(Security.class);
+    Core taLib = new Core();   // may change to spring DI. 
+
+    public OPTSecurity_bak()
+    {
+    	security = new Security();
+        security.setSymbol(this.getSymbol());
+        security.setSecurityType("STK");
+        
+    	this.setMultiplier("100");
+    	this.setSecurityType("OPT");
+        this.setOrderTif("GTC");
+    }
+    public OPTSecurity_bak(String symbol, String triggerMode, float triggerPrice, String buySell, float strikingPrice, String putCall, String orderMode,  int orderAmount)
+    {
+        super(); 
+        security = new Security();
+        security.setSymbol(symbol);
+        security.setSecurityType("STK");
+
+        this.setSymbol(symbol); 
+        this.setSecurityType("OPT");
+
+        this.setTriggerMode(triggerMode);
+        this.setTriggerPrice(triggerPrice);
+        this.setAction(buySell); 
+        this.setStrikingPrice(strikingPrice);
+        this.setPutCall(putCall);
+        this.setPriceMode(orderMode);
+        this.setOrderAmount(orderAmount); 
+        this.setOrderTif("GTC");
+        
+    }
+    
+    public void checkStrategy()
+    {
+    	if ((this.placed)||(OPTSecurity_bak.totalOrderNo>=2)) { 
+    		exitStrategy(); 
+    		return; 
+    	}    	
+    	if (getCurrentPrice()<=0) return;
+    	
+    	double stockPrice = security.getCurrentPrice(); 
+    	boolean triggered = false; 
+    	if (this.triggerMode.equals("<=")) {
+    		if (stockPrice<=this.triggerPrice) triggered=true;
+    	}if (this.triggerMode.equals(">=")) {
+    		if (stockPrice>=this.triggerPrice) triggered=true;
+    	}
+        
+        if (!triggered) return; 
+       
+        log.info("Placing option orders: {}", getSymbol());
+        this.setOrderType("LMT");
+        double tmpPrice = getCurrentPrice();
+        if ("BUY".equals(this.getAction())) {
+        	tmpPrice += 0.005;  // for round
+        }
+        DecimalFormat df = new DecimalFormat("000.##"); 
+        this.setLmtPrice( Double.parseDouble( df.format(tmpPrice) ) ); 
+
+       	orderEngine.placeOrder(this);
+       	placed = true;
+       	OPTSecurity_bak.totalOrderNo++; 
+    }
+    
+    private void exitStrategy() {
+    	if (!this.placed) { return; }
+	}
+    
+	public void monitor() {
+		// option real time bar. 
+    	dataEngine.reqRealtimeBar(this, this.getPriceMode(), true);
+    	
+    	// the underlying stock real time bar.
+    	security.setSymbol(this.getSymbol());
+    	security.setSecurityType("STK");
+    	dataEngine.reqRealtimeBar(security, PriceTypeEnum.TRADES.toString(), true); 
+    	
+    	checkStrategy(); // check initially, otherwise, it waits period time.
+        int period = 30*1000;  // repeat every 30 seconds.
+        Timer timer = new Timer();
+        timer.scheduleAtFixedRate(new TimerTask() {
+        	public void run() {
+        		checkStrategy(); 
+        	}
+        }, 0, period);
+    }
+    
+
+	public void setOrderEngine(OrderEngine orderEngine) {
+		this.orderEngine = orderEngine;
+	}
+	public OrderEngine getOrderEngine() {
+		return orderEngine;
+	}
+	public DataEngine getDataEngine() {
+		return dataEngine;
+	}
+	public void setDataEngine(DataEngine dataEngine) {
+		this.dataEngine = dataEngine;
+	}
+	public boolean isTesting() {
+		return testing;
+	}
+	public void setTesting(boolean testing) {
+		this.testing = testing;
+	}
+ 	public void setTriggerPrice(float triggerPrice) {
+		this.triggerPrice = triggerPrice;
+	}
+	public float getTriggerPrice() {
+		return triggerPrice;
+	}
+	public void setTriggerMode(String triggerMode) {
+		this.triggerMode = triggerMode;
+	}
+	public String getTriggerMode() {
+		return triggerMode;
+	}
+	public void setPriceMode(String priceMode) {
+		this.priceMode = priceMode;
+	}
+	public String getPriceMode() {
+		return priceMode;
+	}
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk"/>
+	<classpathentry exported="true" kind="lib" path="D:/Program Files (x86)/Java/glassfish3/glassfish/modules"/>
+	<classpathentry exported="true" kind="lib" path="D:/Program Files (x86)/Java/glassfish3/glassfish/modules/javaee-kernel.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Program Files (x86)/Java/glassfish3/glassfish/modules/javax.mail.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/Java/j2eesdk-1.4/imq/lib"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/Java/j2eesdk-1.4/imq/lib/imq.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/Java/j2eesdk-1.4/lib/j2ee.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/Java/j2eesdk-1.4/imq/lib/jms.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
